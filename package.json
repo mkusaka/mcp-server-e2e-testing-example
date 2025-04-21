@@ -1,0 +1,19 @@
+{
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "prettier": "^3.5.3",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.2"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.10.1",
+    "zod": "^3.24.3"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test:raw": "vitest run tests/e2e/raw.spec.ts",
+    "test:sdk": "vitest run tests/e2e/sdk.spec.ts",
+		"test": "vitest run"
+  }
+}
