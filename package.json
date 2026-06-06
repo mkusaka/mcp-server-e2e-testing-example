@@ -14,6 +14,7 @@
   "scripts": {
     "test:raw": "vitest run tests/e2e/raw.spec.ts",
     "test:sdk": "vitest run tests/e2e/sdk.spec.ts",
-		"test": "vitest run"
-  }
+    "test": "vitest run"
+  },
+  "packageManager": "pnpm@11.5.2"
 }
