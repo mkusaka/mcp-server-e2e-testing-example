@@ -16,5 +16,5 @@
     "test:sdk": "vitest run tests/e2e/sdk.spec.ts",
     "test": "vitest run"
   },
-  "packageManager": "pnpm@11.5.2"
+  "packageManager": "pnpm@11.6.0"
 }
